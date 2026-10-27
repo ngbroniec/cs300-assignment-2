@@ -1,1 +1,117 @@
-/* Write your own styles here. */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.3;
+  color: #2c2c2c;
+  background: #e8fff6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+header,
+main > section,
+footer {
+  padding-block-start: 4rem;
+  padding-inline: max(1rem, calc((100% - 50rem) / 2));
+}
+
+a:focus-visible {
+  outline: 2px solid #004cbf;
+  outline-offset: 5px;
+}
+
+header {
+  background: #00232d;
+  padding-block: 1rem;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header > a {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+header ul {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+}
+
+header ul a {
+  display: block;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgb(255 255 255 / 0.25);
+}
+
+header a:focus-visible {
+  outline-color: #ffc268;
+}
+
+#overview {
+  background: #1e7087;
+  color: #ffffff;
+  padding-block-end: 3rem;
+}
+
+#overview h1 {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+#overview p {
+  margin: 0 0 1.5rem;
+  font-size: 1.1rem;
+}
+
+#overview a {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  background: #ffc268;
+  color: #2c2c2c;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 0.75rem;
+}
+
+#overview a:focus-visible {
+  outline-color: #ffffff;
+}
+
+#sessions {
+  padding-block-end: 3rem;
+}
+
+#sessions h2 {
+  margin: 0 0 1rem;
+  color: #00232d;
+}
+
+article {
+  background: #ffffff;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+  border-top: 5px solid #1e7087;
+}
+
+article h3 {
+  margin: 0 0 0.5rem;
+  color: #00232d;
+}
+
+article p {
+  margin: 0;
+}
