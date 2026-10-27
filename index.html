@@ -3,26 +3,67 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your landing page</title>
+  <title>River Workshop | Practice Sessions</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <!-- 1. Header and navigation: your site name and at least four navigation links. -->
+    <a href="#overview">River Workshop</a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#sessions">Sessions</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <section id="overview">
-      <!-- 2. Hero: your headline, supporting text, and one primary action link. -->
+        <section id="overview">
+      <h1>Build a readable page, one step at a time.</h1>
+      <p>Our fictional community workshop offers short practice sessions in HTML, CSS, and keyboard usability.</p>
+      <a href="#sessions">Explore the sessions</a>
     </section>
     <section id="sessions">
-      <!-- 3. Features or services: at least three cards, each with a title and a description. -->
+      <h2>Sessions</h2>
+      <div class="cards">
+        <article>
+          <h3>HTML Foundations</h3>
+          <p>Organize meaningful content with the right elements.</p>
+        </article>
+        <article>
+          <h3>Responsive CSS</h3>
+          <p>Adapt layouts to the space available.</p>
+        </article>
+        <article>
+          <h3>Keyboard Checks</h3>
+          <p>Follow every link with visible focus.</p>
+        </article>
+      </div>
     </section>
     <section id="about">
-      <!-- 4. Your chosen content section: About, gallery, or testimonials. -->
+      <div>
+        <h2>About the Workshop</h2>
+        <img src="images/practice-book.svg" width="240" height="160">
+        <p>Bring your curiosity and a small practice idea. Each session uses fictional content and a checklist you can repeat.</p>
+        <ul>
+          <li><strong>Date:</strong> Saturday, October 24, 2026</li>
+          <li><strong>Time:</strong> 10:00 AM to noon</li>
+          <li><strong>Place:</strong> Fictional River Learning Room</li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer id="contact">
-    <!-- 5. Footer: site or contact links and your copyright line. -->
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="#overview">Back to top</a></li>
+        <li><a href="#sessions">Sessions</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN HTML reference</a></li>
+      </ul>
+    </nav>
+    <p>Contact: <a href="mailto:hello@example.com">hello@example.com</a></p>
+    <p>Copyright 2026 River Workshop. Fictional practice site.</p>
   </footer>
 </body>
 </html>
