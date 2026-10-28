@@ -115,3 +115,14 @@ article h3 {
 article p {
   margin: 0;
 }
+
+#about {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
