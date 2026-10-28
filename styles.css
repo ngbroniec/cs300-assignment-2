@@ -119,10 +119,113 @@ article p {
 #about {
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
+  background: #ffffff;
+  padding-block-end: 3rem;
 }
 
 .cards {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+}
+
+#about img {
+  border-radius: 0.75rem;
+}
+
+#about h2 {
+  margin: 0 0 1rem;
+  color: #00232d;
+}
+
+#about p {
+  margin: 0 0 1rem;
+}
+
+#about ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#about li {
+  padding: 0.25rem 0;
+}
+
+footer {
+  background: #00232d;
+  color: #ffffff;
+  padding-block: 2.5rem;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 0.5rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer a {
+  color: #ffc268;
+}
+
+footer a:focus-visible {
+  outline-color: #ffc268;
+}
+
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header ul {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+  }
+
+  header ul a {
+    border-bottom: 0;
+    padding: 0.4rem 0;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  footer li {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #about {
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  #about img,
+  #about div {
+    flex: 1;
+  }
 }
