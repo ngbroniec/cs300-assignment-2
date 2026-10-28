@@ -67,13 +67,13 @@ header a:focus-visible {
 
 #overview h1 {
   margin: 0 0 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 1.2;
 }
 
 #overview p {
   margin: 0 0 1.5rem;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 #overview a {
