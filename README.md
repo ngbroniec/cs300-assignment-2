@@ -1,34 +1,17 @@
-# Assignment 2 Starter: Responsive Landing Experience
+Name: Nicholas Broniec
 
-This folder is your starting point for Assignment 2. Copy everything inside it, not the folder itself, into your cloned `cs300-assignment-2` repository.
+Scenario: Community Workshop (Recommended)
 
-## What Is Here
+	- Who uses it: Alex, who wants to find a workshop's topic, location, and preparation details on a phone.
+	- Goal: Find the details and decide which practice session fits.
+	- Header: Site name "River Workshop". Navigation: Overview to `#overview`; Sessions to `#sessions`; About to `#about`; Contact to `#contact`.
+	- Hero: Headline "Build a readable page, one step at a time." Supporting text "Our fictional community workshop offers short practice sessions in HTML, CSS, and keyboard usability." Primary action "Explore the sessions" linking to `#sessions`.
+	- Cards: HTML Foundations: "Organize meaningful content with the right elements." Responsive CSS: "Adapt layouts to the space available." Keyboard Checks: "Follow every link with visible focus."
+	- Content section: About text "Bring your curiosity and a small practice idea. Each session uses fictional content and a checklist you can repeat." Practice details: Saturday, October 24, 2026; 10:00 AM to noon; fictional River Learning Room.
+	- Footer: Links to Back to top (`#overview`), Sessions (`#sessions`), and the MDN HTML reference (`https://developer.mozilla.org/en-US/docs/Web/HTML`). Contact: hello@example.com. Copyright: "Copyright 2026 River Workshop. Fictional practice site."
 
-- `index.html`: the page skeleton. Each comment marks one of the five required sections.
-- `styles.css`: empty. All of your CSS goes here.
-- `SCENARIOS.md`: copy-ready text for the four scenarios. Pick one.
-- `images/practice-book.svg`: an optional illustration for your content section.
-- `.gitignore`: tells Git which files to skip. You do not need to edit it.
-- `README.md`: this file. You will replace it with your own README (see below).
+Live URL: https://ngbroniec.github.io/cs300-assignment-2/
 
-## Your First 15 Minutes
+Description: A page displaying the River Workshop and all of its navigation links. It contains all information needed for the workshop, complete with a blue-ish green coloring. Everything is centered in the middle of the page to keep it in line.
 
-1. Open your `cs300-assignment-2` folder in VS Code and open `index.html`.
-2. Open `SCENARIOS.md` and pick one scenario.
-3. Copy that scenario's hero headline and supporting text into the `<section id="overview">` part of `index.html`.
-4. Save the file.
-5. Open `index.html` in your browser (double-click it), or refresh it if it is already open. Your text should appear.
-6. Replace everything in this README with your name and your scenario. This guide stays in your extracted starter folder.
-7. Commit with the message `Add starter files and choose scenario` and push.
-
-## Your README Before You Submit
-
-By the deadline, your README must have:
-
-- Your name.
-- Your scenario.
-- Your live URL (your GitHub Pages address).
-- A 3-line description of your page.
-- The source of any image you did not make, such as an Unsplash, Pexels, or Pixabay link.
-
-The submission template in D2L is where your screenshots and answers go.
+Images: The only image used was the book image provided from the ZIP folder.
